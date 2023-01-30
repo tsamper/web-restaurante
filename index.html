@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="shortcut icon" href="img/logoNav.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <div id="Cookies">
+        <img src="img/cookies.png" alt="Cookies" width="50px" height="50px">
+        <h3>Cookies</h3>
+        <p>Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+        <a href="politicaCookies.html"><p>Saber más...</p></a>
+        <button id="aceptarCookies" class="boton">Aceptar</button>
+    </div>
+    <div id="fondoCookies"></div>
+    <header>
+        <div class="headerDiv">
+            <img id="logoHeader" src="img/logoRest.png" alt="Logotipo restaurante">
+            <nav>
+                <img src="img/menuExit.png" class="iconoCerrar" id="cerrarM">
+                <img src="img/menu.png" class="iconoMenu" id="menuM" >
+                <ul id="desplegableM" class="menuResponsive" >
+                    <li><a href="#">Restaurante</a></li>
+                    <li><a href="carta.html">Carta</a></li>
+                    <li><a href="especialidades.html">Especialidades</a></li>
+                    <li><a href="menusGrupos.html">Menús de Grupos</a></li>
+                    <li><a href="reservas.html">Reservas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        
+        <section id="heroImg">
+            <h1 class="heroText">Cocina de vanguardia en el centro de Alicante</h1>
+        </section>
+        <section class="mainSec">
+            <article>
+                <h2>¿Quiénes somos?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam a mi pellentesque posuere. Mauris sit amet elementum diam, a ultrices metus. In suscipit fringilla mauris ut vestibulum. Nullam luctus lorem non mauris placerat, et rhoncus massa viverra. Aliquam fringilla ante eget mi viverra semper. Nulla nec risus nulla.</p>
+            </article>
+            <article class="galeria">
+                <img src="img/gallery1.jpg" alt="Restaurante 1">
+                <img src="img/gallery2.jpg" alt="Restaurante 2">
+            </article>
+            <article>
+                <h2>¿Qué encontrarás en nuestro restaurante?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam a mi pellentesque posuere. Mauris sit amet elementum diam, a ultrices metus. In suscipit fringilla mauris ut vestibulum. Nullam luctus lorem non mauris placerat, et rhoncus massa viverra. Aliquam fringilla ante eget mi viverra semper. Nulla nec risus nulla. Donec et ex a sem eleifend tristique. Curabitur ac convallis ipsum. Cras bibendum augue sed risus rutrum faucibus. In at neque tristique, tincidunt quam non, tempus lorem. </p>
+            </article>
+            <article class="galeria3">
+                <img src="img/gallery3.jpg" alt="Comida 1">
+                <img src="img/gallery4.jpg" alt="Comida 2">
+                <img src="img/gallery5.jpg" alt="Comida 3">
+            </article>
+        </section>
+        <section id="reviews" class="mainSec">
+            <h2>Vuestra opinión importa</h2>
+            <div id="formReview">
+            <form action="" id="">
+                <label for="nombreF">Nombre:</label><br>
+                <input type="text" id="nombreF" name="nombre"><br>
+                <label for="opinionF">Opinión:</label><br>
+                <textarea id="opinionF" name="opinion" cols="30" rows="5"></textarea><br>
+                <label for="puntuacionF">Puntuación:</label>
+                <select id="puntuacionF" name="puntuacion">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+               
+            </form>
+            <br>
+            <button id="enviarReview" class="boton">Enviar</button>
+        </div>
+        <div id="opiniones">
+            <img src="img/flecha.png" id="flechaIzquierda" class="flecha">
+            <span id="reviewsHechas">
+
+            </span>
+            <img src="img/flechaDerech.png" id="flechaDerecha" class="flecha">
+        </div>
+        </section>
+    </main>
+    <footer>
+        <span class="footerSpan">
+            <section id="mapaSitio">
+                <h2>Mapa del sitio</h2>
+                <ul>
+                    <li><a id="footerRestauranteM" href="#">Restaurante</a></li>
+                    <li><a id="footerCartaM" href="carta.html">Carta</a></li>
+                    <li><a id="footerEspecialidadesM" href="especialidades.html">Especialidades</a></li>
+                    <li><a id="footerMenusM" href="menusGrupos.html">Menús de Grupos</a></li>
+                    <li><a id="footerReservasM" href="reservas.html">Reservas</a></li>
+                </ul>
+            </section>
+            <section id="socials">
+                <h2>Contacta con nosotros</h2>
+                <span id="enlacesSocials">
+                    <a target="_blank" href="https://www.facebook.com"><img id="facebookM" src="img/facebook.png" alt="Icono Facebook"></a>
+                    <a target="_blank" href="https://www.instagram.com"><img id="instagramM" src="img/instagram.png" alt="Icono Instagram"></a>
+                    <a target="_blank" href="https://twitter.com/"><img id="twitterM" src="img/twitter.png" alt="Icono Twitter"></a>
+                    <a target="_blank" href="https://www.whatsapp.com/?lang=es"><img id="whatsappM" src="img/whatsapp.png" alt="Icono Whatsapp"></a>
+                    <a target="_blank" href="https://www.youtube.com/"><img id="youtubeM" src="img/youtube.png" alt="Icono Youtube"></a>
+                </span>
+                <h4>Correo: <a href="mailto:restaurante.tokio.js@gmail.com">restaurante.tokio.js@gmail.com</a></h4>
+                <h4>Telefono: <a href="tel:9685742451">9685742451</a></h4>
+            </section>
+            <section id="legal">
+                <h2>Documentos legales</h2>
+                <h3>Política de Privacidad:</h3>
+                <a href="privacidad.html"><p>Leer más...</p></a>
+                <h3>Aviso Legal:</h3>
+                <a href="avisoLegal.html"><p>Leer más...</p></a>
+                <h3>Política de Cookies:</h3>
+                <a href="politicaCookies.html"><p>Leer más...</p></a>
+            </section>
+        </span>
+    </footer>
+</body>
+    <script src="js/aceptarCookies.js"></script>
+    <script src="js/main.js"></script>
+    
+</html>

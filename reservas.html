@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="shortcut icon" href="img/logoNav.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <div id="Cookies">
+        <img src="img/cookies.png" alt="Cookies" width="50px" height="50px">
+        <h3>Cookies</h3>
+        <p>Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+        <a href="politicaCookies.html"><p>Saber más...</p></a>
+        <button id="aceptarCookies" class="boton">Aceptar</button>
+    </div>
+    <div id="fondoCookies"></div>
+    <header>
+        <div class="headerDiv">
+            <img id="logoHeader" src="img/logoRest.png" alt="Logotipo restaurante">
+            <nav>
+                <img src="img/menuExit.png" class="iconoCerrar" id="cerrarR">
+                <img src="img/menu.png" class="iconoMenu" id="menuR" >
+                <ul id="desplegableR" class="menuResponsive" >
+                    <li><a href="index.html">Restaurante</a></li>
+                    <li><a href="carta.html">Carta</a></li>
+                    <li><a href="especialidades.html">Especialidades</a></li>
+                    <li><a href="menusGrupos.html">Menús de Grupos</a></li>
+                    <li><a href="#">Reservas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="heroReservas">
+            <h1 class="heroText">Contacta con nosotros</h1>
+        </section>
+        <section id="formulario">
+            <h2>Formulario de contacto</h2>
+            <p>Quisque sodales condimentum scelerisque. Cras auctor commodo orci non volutpat. Etiam sit amet rutrum eros, laoreet consectetur eros. Nulla at consequat justo. Maecenas ultricies leo in suscipit maximus. </p>
+            <form action="mailto:restaurante.tokio.js@gmail.com" method="post" enctype="text/plain">
+                <label for="nombreR">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombreR"> <br>
+                <label for="correoR">Email:</label><br>
+                <input type="email" name="correo" id="correoR"><br>
+                <label for="mensajeR">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensajeR" cols="30" rows="10" ></textarea><br>
+                <input type="submit" class="boton" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>¿Dónde encontrarnos?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat fringilla nisi sit amet semper. Maecenas iaculis augue et orci maximus, et condimentum nisi ultricies. Sed posuere tellus nec ex ultrices bibendum. Phasellus iaculis, elit vitae maximus feugiat, mi enim blandit eros, nec vestibulum libero nulla ut mauris. Vestibulum vitae aliquet mi. Mauris dapibus blandit sapien, et ultricies dolor tempor et. Sed feugiat ex ipsum, luctus mattis neque auctor eleifend. Etiam vehicula lacus eu lectus ultrices aliquam.</p>
+                <span id="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860.3609825449985!2d-0.48378635420388494!3d38.35495863503453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6237a981d17d69%3A0x8ba87c52acb87342!2sAsados%20Sevilla!5e0!3m2!1ses!2ses!4v1664877599882!5m2!1ses!2ses" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </span>
+        </section>
+        <section id="reserva">
+            <h2>Reserva una mesa</h2>
+            <p>Integer congue sem congue quam congue, nec iaculis nulla pharetra. Aliquam erat volutpat. Morbi elementum porta gravida. Sed varius maximus volutpat. Aenean quis sagittis sem, at faucibus nunc. Vivamus euismod varius aliquam. In in augue sed metus viverra dapibus varius in nunc. Maecenas quam purus, pharetra eu dictum ut, hendrerit at erat.</p>
+            <form action="" method="post">
+                <label for="nombreM">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombreM"> <br>
+                <label for="numeroM">Teléfono:</label><br>
+                <input type="text" name="telefono" id="numeroM"> <br>
+                <label for="comensalesM">Comensales:</label><br>
+                <input type="number" name="comensales" id="comensalesM"><br>
+                <label for="fechaM">Fecha:</label><br>
+                <input type="datetime-local" name="fecha" id="fechaM"><br>
+                <label for="observacionesM">Observaciones:</label><br>
+                <textarea name="observaciones" id="observacionesM" cols="30" rows="5"></textarea><br>
+            </form>
+            <button id="botonReserva" class="boton">Reservar</button>
+        </section>
+    </main>
+    <footer>
+        <span class="footerSpan">
+            <section id="mapaSitio">
+                <h2>Mapa del sitio</h2>
+                <ul>
+                    <li><a id="footerRestauranteR" href="index.html">Restaurante</a></li>
+                    <li><a id="footerCartaR" href="carta.html">Carta</a></li>
+                    <li><a id="footerEspecialidadesR" href="especialidades.html">Especialidades</a></li>
+                    <li><a id="footerMenusR" href="menusGrupos.html">Menús de Grupos</a></li>
+                    <li><a id="footerReservasR" href="#">Reservas</a></li>
+                </ul>
+            </section>
+            <section id="socials">
+                <h2>Contacta con nosotros</h2>
+                <span id="enlacesSocials">
+                    <a target="_blank" href="https://www.facebook.com"><img id="facebookR" src="img/facebook.png" alt="Icono Facebook"></a>
+                    <a target="_blank" href="https://www.instagram.com"><img id="instagramR" src="img/instagram.png" alt="Icono Instagram"></a>
+                    <a target="_blank" href="https://twitter.com/"><img id="twitterR" src="img/twitter.png" alt="Icono Twitter"></a>
+                    <a target="_blank" href="https://www.whatsapp.com/?lang=es"><img id="whatsappR" src="img/whatsapp.png" alt="Icono Whatsapp"></a>
+                    <a target="_blank" href="https://www.youtube.com/"><img id="youtubeR" src="img/youtube.png" alt="Icono Youtube"></a>
+                </span>
+                <h4>Correo: <a href="mailto:restaurante.tokio.js@gmail.com">restaurante.tokio.js@gmail.com</a></h4>
+                <h4>Telefono: <a href="tel:9685742451">9685742451</a></h4>
+                
+            </section>
+            <section id="legal">
+                <h2>Documentos legales</h2>
+                <h3>Política de Privacidad:</h3>
+                <a href="privacidad.html"><p>Leer más...</p></a>
+                <h3>Aviso Legal:</h3>
+                <a href="avisoLegal.html"><p>Leer más...</p></a>
+                <h3>Política de Cookies:</h3>
+                <a href="politicaCookies.html"><p>Leer más...</p></a>
+            </section>
+        </span>
+    </footer>
+</body>
+    <script src="js/aceptarCookies.js"></script>
+    <script src="js/reservas.js"></script>
+   
+</html>
